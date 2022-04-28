@@ -4,7 +4,7 @@ VueJS project to have a hands-on experience with AWS Amplify service and how to 
 
 ## Setup
 - Launch a Cloud9 IDE on your AWS account
-- Once ready, git clone this repo with `https URL`
+- Once ready, git clone this repo with `https URL` and cd to the project folder
 - Run setup.sh by typing `npm run setup` on the Cloud9 terminal
 - Close the `Cloud9 IDE Welcome screen`
 - View your app by navigating to `Cloud9 IDE > Tools > Preview > Preview Running Application`
