@@ -1,5 +1,14 @@
 {
+  "name": "sandboxing-with-amplify-cli",
+  "description": "VueJS project to have a hands-on experience with AWS Amplify service and how to use the AWS Amplify CLI",
   "private": true,
+  "contributors": [
+    {
+      "name": "Shankar Ganesh",
+      "email": "gnshnk@amazon.com",
+      "url": "https://phonetool.amazon.com/users/gnshnk"
+    }
+  ],
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
