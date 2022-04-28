@@ -1,36 +1,36 @@
-# Nuxt 3 Minimal Starter
+# Sandboxing with AWS Amplify CLI 🎮🚀
 
-Look at the [nuxt 3 documentation](https://v3.nuxtjs.org) to learn more.
+VueJS project to have a hands-on experience with AWS Amplify service and how to use the AWS Amplify CLI.
 
-## Setup
+> This project uses yarn as a package manager for quicker response times on CLI, you may feel free to ignore Installing yarn globally step if yarn is already installed / if you use npm only.
+
+## Prerequsites
+Ensure you have node and npm installed on your system to run this project
+- node - v16.xx.x
+- npm - 8.x.x
+
+## Installing yarn globally
+```sh
+npm i -g yarn
+```
+## Project Setup
 
 Make sure to install the dependencies:
 
-```bash
+```sh
 # npm
 npm install
-```
 
+# aws-amplify/cli
+npm install -g @aws-amplify/cli
+```
 ## Development Server
 
 Start the development server on http://localhost:3000
 
-```bash
+```sh
 npm run dev
 ```
-
-## Production
-
-Build the application for production:
-
-```bash
-npm run build
-```
-
-Locally preview production build:
-
-```bash
-npm run preview
-```
-
-Checkout the [deployment documentation](https://v3.nuxtjs.org/docs/deployment) for more information.
+---
+## License Summary
+This sample code is made available under a modified MIT license. See the LICENSE file.
