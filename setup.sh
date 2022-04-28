@@ -27,25 +27,33 @@ announce_with_delay () {
     fi
 }
 
-announce_with_delay "Hello there, welcome to the sandboxing-with-amplify-cli codebase " "info" "2";
+announce_with_delay "👋 Hello there, welcome to the sandboxing-with-amplify-cli codebase " "info" "2";
 
-announce_with_delay "Installing dependencies : npm install" "info" "2";
+printf "\n\n"
+announce_with_delay "📦 Installing dependencies : npm install" "info" "2";
 
 printf "\n\n"
 npm install
 sleep 2
 
-announce_with_delay "Installing aws-amplify/cli globally : npm install -g @aws-amplify/cli" "info" "2";
+announce_with_delay "✨ Installing aws-amplify/cli globally : npm install -g @aws-amplify/cli" "info" "2";
 
 printf "\n\n"
 npm install -g @aws-amplify/cli
 sleep 2
 
-announce_with_delay "Checking if amplify/cli is installed : amplify -version" "info" "2";
+announce_with_delay "🧪 Checking if amplify/cli is installed : amplify -version" "info" "2";
 
 printf "\n\n"
 amplify -version
 sleep 2
 
-announce_with_delay "🙌 All good, navigate to Cloud9 IDE > Tools > Preview > Preview Running Application" "success";
+printf "\n\n"
+nohup npm run dev > output.log &
+sleep 1
+
+announce_with_delay "🔥 Awesome!  the dev server is running in the background"
+printf "\n\n"
+
+announce_with_delay "🙌 Navigate to Cloud9 IDE > Tools > Preview > Preview Running Application" "success";
 printf "\n\n"
