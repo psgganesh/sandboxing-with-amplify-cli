@@ -18,7 +18,12 @@
   },
   "devDependencies": {
     "@nuxtjs/tailwindcss": "^5.0.3",
-    "nuxt": "3.0.0-rc.1"
+    "@pinia/nuxt": "^0.1.8",
+    "c8": "^7.11.2",
+    "nuxt": "3.0.0-rc.1",
+    "vitest": "^0.10.0"
   },
-  "dependencies": {}
+  "dependencies": {
+    "pinia": "^2.0.13"
+  }
 }
