@@ -10,6 +10,7 @@
     }
   ],
   "scripts": {
+    "setup": "chmod +x ./setup.sh && ./setup.sh",
     "build": "nuxt build",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
