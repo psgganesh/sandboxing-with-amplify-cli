@@ -9,6 +9,10 @@ VueJS project to have a hands-on experience with AWS Amplify service and how to 
 - Close the `Cloud9 IDE Welcome screen`
 - View your app by navigating to `Cloud9 IDE > Tools > Preview > Preview Running Application`
 
+## Configuring amplify env.
+- Walkthrough `amplify configure` as mentioned at [Amplify CLI Getting started page](https://docs.amplify.aws/cli/start/install/#option-2-follow-the-instructions)
+- Create a named profile called `amplify`
+
 ---
 ## License Summary
 This sample code is made available under a modified MIT license. See the LICENSE file.
